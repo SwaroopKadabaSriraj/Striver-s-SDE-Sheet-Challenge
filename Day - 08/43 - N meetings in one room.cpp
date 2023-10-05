@@ -1,3 +1,5 @@
+/*CodeStudio solution*/
+
 #include<bits/stdc++.h>
 struct meeting{
     int startTime;
