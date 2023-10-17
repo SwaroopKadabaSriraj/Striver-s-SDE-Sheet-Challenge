@@ -53,6 +53,9 @@ bool solve(int matrix[9][9],int i,int j){
 }
 
 bool isItSudoku(int matrix[9][9]) {
+ // Write your code here.
+    return solve(matrix,0,0);
+}
 
 
 /*Leetcode solution*/
