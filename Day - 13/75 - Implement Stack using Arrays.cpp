@@ -23,3 +23,5 @@ vector<int> maxXorQueries(vector<int> &arr, vector<vector<int>> &queries){
     }
     return v;
 }
+
+/*Leetcode solution*/
