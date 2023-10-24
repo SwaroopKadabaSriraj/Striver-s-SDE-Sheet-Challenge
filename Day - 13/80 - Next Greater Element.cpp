@@ -18,3 +18,5 @@ using namespace std;
       return nge;
     
 };
+
+/*Leetcode solution*/
