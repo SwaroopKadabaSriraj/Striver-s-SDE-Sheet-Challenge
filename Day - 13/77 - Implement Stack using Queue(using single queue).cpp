@@ -39,7 +39,11 @@ public:
     }
 
     int top() {
-
+        if(!q.empty())
+            return q.front();
+        return -1;
+    }
+};
 
 
 /*Leetcode solution*/
