@@ -27,7 +27,7 @@ vector<int> calc(string pat)
 }
 
 
-/*InterviewBit solution*/
+/*Leetcode solution*/
 
 class Solution {
 public:
