@@ -12,3 +12,23 @@ bool areAnagram(string &str1, string &str2){
         return true;
     return false;
 }
+
+/*Leetcode solution*/
+
+class Solution {
+public:
+    bool isAnagram(string s, string t) {
+        if(s == t)
+            return true;
+        if(s.size() != t.size())
+            return false;
+        
+        sort(s.begin(), s.end());
+        sort(t.begin(), t.end());
+        
+        if(s == t)
+            return true;
+        return false;
+    }
+};
+
