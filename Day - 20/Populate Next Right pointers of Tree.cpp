@@ -1,4 +1,4 @@
-/*CodeStudio solution*/
+/*Leetcode solution*/
 
 /*
 // Definition for a Node.
